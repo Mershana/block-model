@@ -1,0 +1,17 @@
+/* свойство box-sizing. Если указать ему значение border-box, то ни padding, ни граница не будут расширять блок: */
+
+#elem{
+	width: 300px;
+	padding: 30px;
+	margin-bottom: 30px;
+	border: 1px solid green;
+	text-align: justify;
+}
+
+#elem2{
+	width: 300px;
+	padding: 30px;
+	border: 5px solid red;
+	text-align: justify;
+	box-sizing: border-box;
+}
