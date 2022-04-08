@@ -1,0 +1,21 @@
+/* #elem{
+	padding: 40px;
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+} */
+
+#elem{
+	padding: 20px;
+	width: 500px;
+	border: 1px solid green;
+	text-align: justify;
+}
+
+#elem2{
+	margin: 30px;
+	padding: 10px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}

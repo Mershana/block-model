@@ -1,0 +1,42 @@
+#parent{
+	width: 300px;
+	border: 1px solid orange;
+}
+
+/* #child{
+	height: 100px;
+	border: 1px solid green;
+	margin: 20px 30px 50px 10px;
+} */
+
+/* задаю вверх и низ/ право и лево
+#child{
+	height: 100px;
+	border: 1px solid green;
+	margin: 15px 20px;
+} */
+
+/* #child{
+	height: 100px;
+	border: 1px solid green;
+	margin: 100px 50px;
+} */
+
+
+/* #child{ 
+	height: 50px;
+	border: 1px solid green;
+	margin: 30px 50px;} */
+
+	/*  первое значение вверх\второе справа и слева\снизу
+	#child{
+		height: 50px;
+		border: 1px solid blue;
+		margin: 50px 25px 10px;
+	} */
+
+	#child{
+		height: 50px;
+		border: 1px solid blue;
+		margin: 20px 50px 30px;
+	}
