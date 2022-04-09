@@ -1,0 +1,17 @@
+/* Вы уже знаете, что все теги относятся к определенной блочной модели. При желании, однако, можно сменить модель с помощью свойства display. С помощью значения block данного свойства элемент можно сделать блочным, а с помощью значения inline - строчным. */
+
+/* p{
+	display: inline;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+} */
+
+
+a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+	margin-bottom: 35px;
+}

@@ -1,0 +1,44 @@
+			/* Повторите страницу по образцу, сделав так, чтобы зеленые блоки располагались по центру своего родителя: */
+
+
+#elem{
+	border: 1px solid red;
+	margin: 10px;
+}
+
+#elem1{
+	height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    margin: 10px auto;
+	 
+}
+
+#elem2{
+	height: 100px;
+    width: 200px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+
+#elem3{
+	height: 100px;
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+
+
+
+
+.parent {
+	padding: 10px 0;
+	border: 1px solid red;
+}
+.child {
+	margin-left: auto;
+	margin-right: 20px; /* задаем правый отступ */
+	height: 100px;
+	width: 200px;
+	border: 1px solid green;
+}

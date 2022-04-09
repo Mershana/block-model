@@ -1,0 +1,48 @@
+
+				/* Преобразуйте дивы-потомки в строчно-блочные элементы, задайте им горизонтальный margin в 5px, а затем отцентрируйте их по горизонтали относительно своего родителя */
+
+/* .parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: center;
+}
+.child {
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	margin: 0px 5px;
+}
+ */
+
+
+			/* Преобразуйте див-потомок в строчно-блочный элемент, затем выровняйте его по правому краю родителя. */
+
+ /* .parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: right;
+	padding-right: 10px;
+
+}
+.child {
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	margin-right: 10px;
+} */
+
+/* Преобразуйте ссылку в строчно-блочный элемент, затем выровняйте его по правому краю родителя. */
+
+/* Модифицируйте предыдущую задачу так, чтобы текст внутри ссылки выл выровнен по центру этой ссылки. */
+.parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	text-align: right;
+}
+.child {
+	width: 100px;
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+	text-align: center;
+}
