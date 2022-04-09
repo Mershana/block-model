@@ -1,0 +1,81 @@
+/* 								Выравнивание flex элементов
+Для выравнивания флекс элементов используется специальное свойство justify-content. Оно принимает достаточно много значений, которые мы и изучим в данном уроке. */
+
+
+/* 						Значение center
+Значение center позволяет выровнять элементы по центру: */
+
+
+/* .parent{
+	width: 800px;
+	height: 400px;
+	display: flex; задал потомкам флекс элемент
+	justify-content: center; выравнивает элементы родителя по центру
+	margin: 20px auto;
+	border: 1px solid red;
+}
+
+.child{
+	height: 50px;
+	width: 50px;
+	border: 1px solid green;
+} */
+
+
+								/* Значение space-between */
+/* Значение space-between позволяет сделать так, чтобы элементы равномерно распределились по своему родителю, а расстояние между ними рассчиталось автоматически. При этом первый элемент будет прижат к левому краю, а последний - к правому. */
+
+
+/* .parent{
+	width: 800px;
+	height: 200px;
+	display: flex; задал потомкам флекс элемент
+	justify-content: space-between; задал элементу распределиться по своему родителю
+	margin: 20px auto;
+	border: 1px solid red;
+}
+
+.child{
+	height: 60px;
+	width: 120px;
+	border: 1px solid green;
+} */
+
+/* 								Значение space-around
+Значение space-around работает похожим образом, только делает так, чтобы первый и последний элемент отступали от края родителя.
+
+С первого взгляда может показаться, что расстояние между элементами и между крайними элементами и родителем будут равны, однако, это не так - расстояние между элементами будет в 2 раза больше, чем между родителем и крайним элементом. */
+
+/* .parent{
+	width: 800px;
+	height: 200px;
+	display: flex; 
+	justify-content: space-around; делает чтобы первый и последний элемент отступали от края родителя 
+	margin: 20px auto;
+	border: 1px solid red;
+}
+
+.child{
+	height: 60px;
+	width: 120px;
+	border: 1px solid green;
+} */
+
+
+/* 						Значение space-evenly
+Поведение space-around чаще всего не то, которое вам хотелось бы. Чаще всего нам нужно сделать так, чтобы все указанные выше промежутки были равны. */
+
+/* .parent{
+	width: 800px;
+	height: 200px;
+	display: flex; 
+	justify-content: space-evenly; делает чтобы промежутки были равны
+	margin: 20px auto;
+	border: 1px solid red;
+}
+
+.child{
+	height: 60px;
+	width: 120px;
+	border: 1px solid green;
+} */
